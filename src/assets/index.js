@@ -3,7 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import link from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import css from "./tech/css.png";
@@ -19,9 +19,9 @@ import threejs from "./tech/threejs.svg";
 import enigma from "./company/images.png";
 import artkit from "./company/19295.png";
 import superex from "./company/superex.png";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import foodapp from "./foodapp.png";
+import expense from "./expenses.png";
+import webapp from "./webapp.png";
 
 export {
   logo,
@@ -29,7 +29,7 @@ export {
   creator,
   mobile,
   web,
-  github,
+  link,
   menu,
   close,
   css,
@@ -45,7 +45,7 @@ export {
   enigma,
   artkit,
   superex,
-  carrent,
-  jobit,
-  tripguide,
+  foodapp,
+  expense,
+  webapp,
 };

@@ -1,14 +1,14 @@
 import React from 'react'
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
-import { github } from '../../assets';
+import { link} from '../../assets';
 import { SectionWrapper } from '../../hoc';
 import { projects } from '../../constants';
 import { fadeIn, textVariant } from '../../utils/motion';
 import { styles } from '../../styles';
 
 
-const ProjectCard =({index, name, description, tags, image, sounce_code_link})=>{
+const ProjectCard =({index, name, description, tags, image, source_code_link})=>{
   return(
   <motion.div variants={fadeIn("up", "spring", index * 0.5, 1)}>
    <Tilt options={{
@@ -23,16 +23,23 @@ const ProjectCard =({index, name, description, tags, image, sounce_code_link})=>
 
         <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
 
-          <div onClick={() => window.open(sounce_code_link, "_blank")} className="black-gradient w-10 h-10 flex justify-center items-center cursor-pointer rounded-full">
-            <img src={github} alt='git' className='w-1/2 h-1/2 object-contain' />
+          <div onClick={() => window.open(source_code_link, "_blank")} className="black-gradient w-10 h-10 flex justify-center items-center cursor-pointer rounded-full">
+            <img src={link} alt='git' className='w-1/2 h-1/2 object-contain' />
           </div>
 
         </div>
       </div>
 
     <div className='mt-5'>
-      <h3>{name}</h3>
-      <p>{description}</p>
+      <h3 className='text-white font-bold text-[24px] '>{name}</h3>
+      <p className='mt-2 text-secondary tet-[14px]'>{description}</p>
+    </div>
+
+    <div className='mt-4 flex flex-wrap gap-2'>
+      {tags.map((tag) => (
+     <p key={tag.name} className={`text-[14px] ${tag.color}`}> #{tag.name}</p>
+
+      ))}
     </div>
    </Tilt>
   </motion.div>
