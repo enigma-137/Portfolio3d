@@ -7,18 +7,14 @@ import {
     typescript,
     html,
     css,
+    medium,
+    reactnative,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    artkit,
+    superex,
+    enigma,
     carrent,
     jobit,
     tripguide,
@@ -42,15 +38,15 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Freencelancer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Reactjs Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: " Technical writer",
       icon: backend,
     },
     {
@@ -80,10 +76,7 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+ 
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -92,81 +85,68 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+  
     {
       name: "Three JS",
       icon: threejs,
     },
     {
-      name: "git",
-      icon: git,
+      name: "Medium",
+      icon: medium,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "ReactNative",
+      icon: reactnative,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+  
+   
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Content Writer",
+      company_name: "Artkit",
+      icon: artkit,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2021 - August 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Organize and maintain a library of technical documentation for easy access and reference.",
+        "Stay up-to-date on industry trends and technologies to ensure that technical documentation is current and relevant",
+        "Participate in product development and testing to ensure technical documentation accurately reflects the product or service being described.",
+        "Develop user guides, instruction manuals, release notes, and other technical documentation to support end-users.",
+        "Managing Medium account and creating contents for Twitter and Medium and other Media"
+
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Blockchain Content Writer",
+      company_name: "SuperEx NG DAO",
+      icon: superex,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "April 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conducting research and gathering information to support technical writing projects.",
+        "Writing technical content that is clear, concise, and easy to understand, while maintaining accuracy and technical correctness.",
+        "Editing and proofreading technical documents for accuracy, consistency, and style.",
+        "Communicating complex technical concepts and ideas to non-technical audiences.",
+        "Managing Medium account and creating contents for Twitter and Medium and other Media"
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "FrontEnd Dev",
+      company_name: "ENG ENT",
+      icon: enigma,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "June 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Develops and maintain Web applications using React.js and related technologies",
+        "Create top-notch products, and collaborating with cross-functional teams of designers, product managers",
+        "Practicing responsive design and ensuring it is compatible with all browsers.",
+        "Create contents for web pages and reseach on good and beautiful templates .",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+
+
   ];
   
   const testimonials = [
