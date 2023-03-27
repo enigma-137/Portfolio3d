@@ -37,9 +37,9 @@ const Contact = () => {
         "template_q9j0h9n",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Enigma",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "emmanuelonoja291@gmail.com",
           message: form.message,
         },
        "YCUm9fAeK35hme2YR"
@@ -47,7 +47,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Thank you. I will get back to you shortly.");
 
           setForm({
             name: "",
@@ -59,7 +59,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Sorry I think something went wrong. Please try again.");
         }
       );
   };
