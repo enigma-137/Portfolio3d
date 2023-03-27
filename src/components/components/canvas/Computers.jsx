@@ -4,7 +4,6 @@ import { OrbitControls, Preload } from "@react-three/drei";
 import { useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
-import ErrorBoundary from "../ErrorBoundary";
 
 const Computers = ({isMobile}) => {
   const computer = useGLTF('./gaming_desktop_pc/scene.gltf');
@@ -61,7 +60,7 @@ const ComputersCanvas = () => {
 
 
   return (
-    <ErrorBoundary>
+   
       <Canvas
         frameloop="demand"
         shadows
@@ -79,7 +78,6 @@ const ComputersCanvas = () => {
 
         <Preload all />
       </Canvas>
-    </ErrorBoundary>
   );
 };
 

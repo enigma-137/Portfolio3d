@@ -85,4 +85,4 @@ Each project is carefully described, with links provided to showcase the differe
   )
 }
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "work");

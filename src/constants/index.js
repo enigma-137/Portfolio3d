@@ -19,6 +19,9 @@ import {
     foodapp,
     expense,
     threejs,
+    craig,
+    misturah,
+    perry,
   } from "../assets";
   
   export const navLinks = [
@@ -152,27 +155,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I worked with him for a while and truthfully he's someone that is very reliable, delivers good result without stress.",
+      name: "Sir Craig",
+      designation: "EX COO",
+      company: "ArtKit",
+      image: craig,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I've never met someone who truly cares about my business' success like Enigma does.",
+      name: "Perry",
+      designation: "CEO",
+      company: "PerryLux Scent",
+      image: perry,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Enigma is someone that will go extra miles and do the sacrifice just to make sure you get even much more than you expected ",
+      name: "Misturah",
+      designation: "CEO",
+      company: "Smile Apparel",
+      image: misturah,
     },
   ];
   

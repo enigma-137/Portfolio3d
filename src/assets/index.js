@@ -22,6 +22,9 @@ import superex from "./company/superex.png";
 import foodapp from "./foodapp.png";
 import expense from "./expenses.png";
 import webapp from "./webapp.png";
+import craig from "./mcraig.png";
+import perry from "./perryl.png";
+import misturah from "./misturah.png"
 
 export {
   logo,
@@ -48,4 +51,7 @@ export {
   foodapp,
   expense,
   webapp,
+  craig,
+  misturah,
+  perry,
 };
