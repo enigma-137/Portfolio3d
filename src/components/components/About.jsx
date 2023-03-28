@@ -50,7 +50,7 @@ const About = () => {
    
    >
 
-I am a skilled Front-end Reactjs Developer with expertise in Html, Css, Javascript, and Typescript. I possess a strong ability to learn quickly and effectively communicate with clients. With extensive experience in utilizing technologies such as Framer-Motion, Threejs, and TailwindCss, I have a proven track record of creating exceptional web applications.
+I am a skilled Front-end Reactjs Developer with expertise in Html, Css, Javascript, and Reactjs. I possess a strong ability to learn quickly and effectively communicate with clients. With extensive experience in utilizing technologies such as Framer-Motion, Threejs, and TailwindCss, I have a proven track record of creating exceptional web applications.
 In addition to my technical skills, I am also a talented creative writer with the ability to transform complex information into fun-filled and easily understandable content for individuals at all levels. My persuasive thinking capability allows me to use words and phrases to convey ideas effectively.
 Furthermore, I have a good understanding of blockchain and cryptocurrencies, which enables me to develop innovative solutions for clients in this space.
 
