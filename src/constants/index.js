@@ -15,8 +15,8 @@ import {
     artkit,
     superex,
     enigma,
-    webapp,
-    foodapp,
+adverthub,
+    aisum,
     expense,
     threejs,
     craig,
@@ -41,7 +41,7 @@ import {
   
   const services = [
     {
-      title: "Freencelancer",
+      title: "Freelancer",
       icon: web,
     },
     {
@@ -181,9 +181,9 @@ import {
   
   const projects = [
     {
-      name: "Food Ordering App",
+      name: "AI Article Summarizer App",
       description:
-        "A simple web based app where you can place orders on your favorite foods.",
+        "A simple web based app that uses OpenAI GPT-4 technology to summazrizer complex articles .",
       tags: [
         {
           name: "react",
@@ -198,8 +198,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: foodapp,
-      source_code_link: "https://food-app-pi-jade.vercel.app/",
+      image: aisum,
+      source_code_link: "https://enigmaaisummarizer.vercel.app/",
     },
     {
       name: "Expenses Tracker",
@@ -223,9 +223,9 @@ import {
       source_code_link: "https://expense-tracker-app-green.vercel.app/",
     },
     {
-      name: "Web App",
+      name: "AdvertHUB",
       description:
-        "A React js responsive web app for young  vibrant christains ",
+        "Advertise on the go, buy pixels and advertise your business with this cool web App ",
       tags: [
         {
           name: "reactjs",
@@ -240,8 +240,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: webapp,
-      source_code_link: "https://web-app-sigma-peach.vercel.app/",
+      image: adverthub,
+      source_code_link: "https://advertshub.vercel.app/",
     },
   ];
   

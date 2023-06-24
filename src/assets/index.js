@@ -19,9 +19,9 @@ import threejs from "./tech/threejs.svg";
 import enigma from "./company/images.png";
 import artkit from "./company/19295.png";
 import superex from "./company/superex.png";
-import foodapp from "./foodapp.png";
+import aisum from "./aisum.png";
 import expense from "./expenses.png";
-import webapp from "./webapp.png";
+import adverthub from "./advertshub.png";
 import craig from "./mcraig.png";
 import perry from "./perryl.png";
 import misturah from "./misturah.png"
@@ -48,9 +48,9 @@ export {
   enigma,
   artkit,
   superex,
-  foodapp,
+  adverthub,
   expense,
-  webapp,
+  aisum,
   craig,
   misturah,
   perry,
