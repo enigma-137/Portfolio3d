@@ -15,7 +15,7 @@ import {
     artkit,
     superex,
     enigma,
-adverthub,
+enigmasaas,
     aisum,
     expense,
     threejs,
@@ -223,16 +223,16 @@ adverthub,
       source_code_link: "https://expense-tracker-app-green.vercel.app/",
     },
     {
-      name: "AdvertHUB",
+      name: "AI Saas Platform",
       description:
-        "Advertise on the go, buy pixels and advertise your business with this cool web App ",
+        "Increase your productivity with AI",
       tags: [
         {
-          name: "reactjs",
+          name: "Nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "javascript",
+          name: "Prisma Db",
           color: "green-text-gradient",
         },
         {
@@ -240,8 +240,8 @@ adverthub,
           color: "pink-text-gradient",
         },
       ],
-      image: adverthub,
-      source_code_link: "https://advertshub.vercel.app/",
+      image: enigmasaas,
+      source_code_link: "https://enigma-bay.vercel.app",
     },
   ];
   

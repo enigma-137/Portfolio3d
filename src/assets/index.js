@@ -21,7 +21,7 @@ import artkit from "./company/19295.png";
 import superex from "./company/superex.png";
 import aisum from "./aisum.png";
 import expense from "./expenses.png";
-import adverthub from "./advertshub.png";
+import enigmasaas from "./enigmasaas.png";
 import craig from "./mcraig.png";
 import perry from "./perryl.png";
 import misturah from "./misturah.png"
@@ -48,7 +48,7 @@ export {
   enigma,
   artkit,
   superex,
-  adverthub,
+  enigmasaas,
   expense,
   aisum,
   craig,
