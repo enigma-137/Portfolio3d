@@ -19,12 +19,10 @@ import threejs from "./tech/threejs.svg";
 import enigma from "./company/images.png";
 import artkit from "./company/19295.png";
 import superex from "./company/superex.png";
-import aisum from "./aisum.png";
-import expense from "./expenses.png";
-import enigmasaas from "./enigmasaas.png";
-import craig from "./mcraig.png";
-import perry from "./perryl.png";
-import misturah from "./misturah.png"
+import exco1 from "./exco1.jpg";
+import exco4 from "./exco4.png";
+import exco5 from "./exco5.png";
+
 
 export {
   logo,
@@ -48,10 +46,7 @@ export {
   enigma,
   artkit,
   superex,
-  enigmasaas,
-  expense,
-  aisum,
-  craig,
-  misturah,
-  perry,
+  exco1,
+  exco5,
+  exco4,
 };

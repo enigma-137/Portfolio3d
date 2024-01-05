@@ -10,8 +10,15 @@ const Navbar = () => {
 
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+ 
+  const handleButtonClick = () => {
+    const url = 'https://funaabpay.com.ng/department-due';
+
+    window.open(url, '_blank');
+  };
+
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
+    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-[#0e5a10a1]`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
 
         <Link
@@ -22,22 +29,23 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
+          {/* <img src={logo} alt="logo" className='w-9 h-9 object-contain' /> */}
 
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Neoteric &nbsp; 
-          <span className='sm:block hidden'>| Enigma</span> </p>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>NAFST &nbsp; 
+          <span className='sm:block hidden'> FUNAAB</span> </p>
 
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
             <li
               key={link.id}
-              className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
+              className={`${active === link.title ? "text-white" : "text-[#50e6559a]"} hover:text-[#ffffff] hover:underline hover:font-extrabold text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <li><button onClick={handleButtonClick}  className='px-3 py-1 bg-white rounded-full text-black font-medium'>Pay dues</button></li>
         </ul>
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img src={toggle ? close : menu} alt="menu"
@@ -50,7 +58,7 @@ const Navbar = () => {
               {navLinks.map((link) => (
                 <li
                   key={link.id}
-                  className={`${active === link.title ? "text-white" : "text-secondary"} font-poppins text-[16px] font-medium cursor-pointer`}
+                  className={`${active === link.title ? "text-white" : "text-black"} font-poppins text-[16px] font-medium cursor-pointer`}
                   onClick={() => {
                     setToggle(!toggle); //open and close toggle
                     setActive(link.title)  //set active link 

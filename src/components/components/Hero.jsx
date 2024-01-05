@@ -1,45 +1,43 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../../styles';
-import { ComputersCanvas } from './canvas';
-import { useTypewriter } from 'react-simple-typewriter'
 
-
-
-
+const handleButtonClick = () => {
+  const url = 'https://funaabpay.com.ng/department-due';
+  window.open(url, '_blank');
+};
 
 const Hero = () => {
 
-  const [text] = useTypewriter({
-    words: ['ENIGMA', 'A Developer ', 'A Tech Writer', 'A Crypto fundi' , 'Neoteric',],
-    loop: 0
-  })
 
 
   return (
  <section className='h-screen relative w-full mx-auto'>
   <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
     <div className='flex flex-col justify-center items-center mt-5'>
-      <div  className='w-5 h-5 rounded-full bg-[#915eff]'/>
-      <div className='w-1 sm:h-80 h-40 violet-gradient' />
+      {/* <div  className='w-5 h-5 rounded-full bg-[#915eff]'/>
+      <div className='w-1 sm:h-80 h-40 violet-gradient' /> */}
 
 
     </div>
-<div>
-  <h1 className={`${styles.heroHeadText} text-white`}> Hello, I am &nbsp; 
-  <span className='text-[#915eff]'>{text}</span></h1>
-  <p className={`${styles.heroSubText} mt-3 text-white-100`}>I am an aspiring blockchain developer,  I build web <br className='sm:block hidden' /> applications and write blockchain technical contents</p>
+<div className='text-center mx-auto py-64 '>
+  <h1 className={`${styles.heroHeadText} text-white text-center`}> Welcome To NAFST &nbsp; 
+  {/* <span className='text-[#50e6559a]'>{text}</span> */}
+  </h1>
+  <p className={`${styles.heroSubText} mt-3 text-center text-white-100`}>(FUNAAB Chapter)</p>
+  <div className='flex justify-center pt-10 items-center'>
+      <button onClick={handleButtonClick}  className='px-3 py-1 bg-white lg:hidden rounded-full text-black font-medium'>Pay dues</button>
+      </div>
 </div>
 
-   
   </div>
 
-  <ComputersCanvas />
+  {/* <ComputersCanvas /> */}
   
  <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-start'>
   <a href="#about">
   <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 mt-10'>
-    <motion.dev 
+    <motion.div 
     animate={{
       y:[0,24,0]
     }}
